@@ -1,0 +1,40 @@
+.cards{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.cards:hover{
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+}
+
+.image-box img{
+    width: 150px;
+    height: 200px;
+}
+
+.details p:nth-child(1){
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin: 8px 0;
+}
+
+.details p:nth-child(2){
+    font-weight: bold;
+    color: rgb(171, 129, 129)
+}
+
+.details p:nth-child(3){
+    margin: 10px 0;
+    font-weight: bolder;
+}
+
+button{
+    border: none;
+    background-color: orangered;
+    color: white;
+    padding: 12px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
